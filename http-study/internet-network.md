@@ -40,6 +40,6 @@
 * IP패킷에서는 출발지 IP, 목적지 IP등이 포함되어 있음
 * TCP세그먼트에는 출발지 PORT, 목저지 PORT, 전송제어, 순서, 검증 정보 등이 포함.
 
-![img.png](img.png)
+![img.png](./img/TCP_IP패킷.png)
 
 # 인터넷 프로토콜 스택의 4계층
