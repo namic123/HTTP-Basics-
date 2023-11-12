@@ -37,30 +37,44 @@
 # URI
 * ## URI (Uniform Resource Identifier)
  * ### URL (Uniform Resource Locater)
-  * 리소스가 있는 위치를 지정
-  * Protocol (scheme)
-  * Host name
-  * port number
-  * path
-  * query parameter
-  * fragment
+   * 리소스가 있는 위치를 지정
+   * Protocol (scheme)
+   * Host name
+   * port number
+   * path
+   * query parameter
+   * fragment
  * ### URN (Uniform Resource Name)
-  * 리소스에 이름을 부여
+   * 리소스에 이름을 부여
 --------------------------------------------------------------------------
 # HTTP
 * ## HTTP history
- * HTTP/0.9 1991
-  * GET Method, Http header X
- * HTTP/1.0 1996년
-  * Method, header
- * *HTTP/1.1 1997년*
-  * 현재 가장 많이 사용
- * HTTP/2 2015년
-  * 성능 개선
- * HTTP/3 진행중
-  * TCP 대신 UDP 사용
+  * HTTP/0.9 1991
+    * GET Method, Http header X
+  * HTTP/1.0 1996년
+    * Method, header
+  * *HTTP/1.1 1997년*
+    * 현재 가장 많이 사용
+  * HTTP/2 2015년
+    * 성능 개선
+  * HTTP/3 진행중
+    * TCP 대신 UDP 사용
 * ## Protocol based
- * TCP: HTTP/1.1, HTTP/2
- * UDP: HTTP/3
- * NOW: HTTP/1.1 주로 사용 (HTTP/2, HTTP/3도 증가하는 추세)
-* 
+  * TCP: HTTP/1.1, HTTP/2
+  * UDP: HTTP/3
+  * NOW: HTTP/1.1 주로 사용 (HTTP/2, HTTP/3도 증가하는 추세)
+* ## HTTP?
+  * ### Request, Response Structure (요청, 응답 구조)
+  * ### Stateless (무상태 프로토콜)
+  * ### connectionless (비연결)
+  * ### HTTP Message
+   * Request message
+     * start-line 
+     * header
+     * empty line(CRLF)
+     * (message body를 가질 수 있기는 함)
+  * Response body 
+     * start-line
+     * header
+     * empty line(CRLF)
+     * Message body
